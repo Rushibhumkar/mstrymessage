@@ -172,9 +172,8 @@ export default function SignUpForm() {
                     >
                       {showPassword ? <EyeOff /> : <Eye />}
                     </span>
-                  <span>
-
-              </span>
+                    <span></span>
+                    <p className="text-muted text-gray-400 text-sm"></p>
                   </div>
                   <FormMessage />
                 </FormItem>
