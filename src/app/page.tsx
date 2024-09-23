@@ -1,11 +1,17 @@
-import React from 'react'
+"use client";
 
-const page = () => {
+import React from "react";
+import MainFile from "./MainFile";
+import { useRouter } from "next/navigation";
+
+const Page = () => {
+  const router = useRouter();
+
   return (
-    <div>
-      <button className='bg-orange-500 rounded pl-4 pr-4 pt-2 pb-2 m-8'>signin</button>
-    </div>
-  )
-}
+    <>
+      <MainFile/>
+    </>
+  );
+};
 
-export default page
+export default Page;
